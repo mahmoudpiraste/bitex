@@ -1,0 +1,68 @@
+.header-main{
+    display: flex;
+    font-family: "IranSans";
+    box-shadow: 5px 5px 8px 4px #c0c0c00e;
+    padding-left: 25px;
+    padding-top: 20px;
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+}
+
+.menu-dash{
+    
+    float: left;
+   
+
+}
+
+.menu-opn{
+    font-family: "IranSans";
+
+    width: 220px;
+    height: 100vh;
+    background-color: #ffffff;
+    justify-content: left;
+    align-items: left;
+    padding-top: 25px;
+    overflow-y:auto;
+    z-index: 2;
+    box-shadow: 5px 25px 15px 12px #5e5e5e28;
+}
+
+.btn-menu-dash{
+    width: 100%;
+    text-align: left;
+    color: #000000;
+    text-decoration: none;
+    padding: 12px 25px 12px 15px;
+    background: #ffffff;
+   margin-bottom: 8px;
+   margin-right: 0;
+   /* border-radius: 15px; */
+   border: #eda60100;
+    cursor: pointer;
+    border-bottom: 1px solid #0000000a;
+}
+
+
+.btn-menu-dash:hover{
+    background-color: #111111;
+    color: #ffffff;
+
+}
+
+.footer-dashboard{
+    position: fixed;
+    bottom: 0px;
+    background-color: #000000;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    
+}
+
+.p-footer{
+    color: #ffffff;
+}
