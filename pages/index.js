@@ -10,14 +10,14 @@ export default function Home() {
         <title>Bitex</title>
         <meta name="description" content="Best Assistant for your trading" />
 
-        
+
         <link rel="icon" href="/favicon.ico" />
         
       </Head>
 
       
 
-      <TradingView />
+      <p>Dashboard</p>
     </div>
   )
 }

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
 import Link from "next/link";
 import {BiHomeSmile} from "react-icons/bi";
 import { CiAlignRight, CiCoinInsert, CiUser, CiLocationArrow1 , CiBank } from "react-icons/ci";
@@ -18,10 +19,10 @@ function Header () {
         <div className="menu-dash">
             <div className="menu-opn">
                 <div>
-                <Link href="/">   <button className="btn-menu-dash"> <CiBank/>dashboard </button> </Link>
+                <Link href='/'>  <button className="btn-menu-dash"> <CiBank/>dashboard </button></Link>
                 <Link href="/pages/dashboard/"> <button className="btn-menu-dash"> <CiCoinInsert/> Wallet</button> </Link>
-                <Link href="/pages/tradeview/"><button className="btn-menu-dash" > <CiAlignRight/> Trading Chart</button> </Link> 
-                <Link href="/pages/todo/"><button className="btn-menu-dash"> <CiUser/> To do</button> </Link> 
+                <a  className="btn-menu-dash-a" href='/pages/tradeview/'>       <CiBank style={{marginLeft:15 }}/> Trading chart </a> 
+                <Link href="/pages/todo/"><button className="btn-menu-dash-t"> <CiUser/> To do</button> </Link> 
                 <Link href="/pages/safirinfo/"><button className="btn-menu-dash"> <CiLocationArrow1/> Support Team</button> </Link> 
         </div>
                
