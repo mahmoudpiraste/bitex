@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Dashboard from './pages/dashboard';
 
 import TradingView from './pages/tradeview';
 
@@ -17,7 +18,7 @@ export default function Home() {
 
       
 
-      <p>Dashboard</p>
+      <Dashboard/>
     </div>
   )
 }

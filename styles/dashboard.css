@@ -1,0 +1,176 @@
+.main-dashboard{
+   width: 84vw;
+   height: 100vh;
+    display: flex;
+    
+}
+
+
+.middle-dash-main{
+    width: 60vw;
+   
+    background-color: #0d121b;    
+}
+
+
+
+.up-middle-01{
+    
+    display: flex;
+}
+
+.welcoming-middle{
+    width: 90%;
+    display: flex;
+    color: rgb(255, 255, 255);
+}
+
+.w-img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.w-p{
+    margin-top: 25px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+
+.choice-middle{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    
+    float: right;
+    
+  }
+
+  .btn-drop-01{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    width: 125px;
+    height: 35px;
+    border-radius: 5px;
+    border-color: #00000000;
+    margin-top: 15px;
+    margin-right: 10px;
+  }
+
+  .btn-drop-01:hover{
+    cursor: pointer;
+  }
+
+  .card-img-div{
+    margin-right: 15px;
+    margin-top: 15px;
+    background-color: aquamarine;
+    padding: 5px;
+    border-radius: 8px;
+    
+  }
+
+
+  .droped-menu{
+    background-color: black;
+    border-radius: 8px;
+    height: 115px;
+    width: 65px;
+    margin-top: -1px;
+    color: rgb(255, 255, 255);
+
+  }
+
+  .item-droped{
+    font-size: 12px;
+    padding-top: 10px;
+    margin-left: -15px;
+  }
+  .item-droped:hover{
+   color: aquamarine;
+   cursor: pointer;
+  }
+
+
+ 
+
+
+
+
+ /* numbers area */
+ .show-total-counts-main{
+    display: flex;
+ }
+
+  .total-numbers-area{
+    
+    margin-top: 10px;
+    margin-left: 5px;
+    border: 2px solid #3534343b;
+    border-radius: 8px;
+    width: 60%;
+    height: 180px;
+    
+  }
+
+  .total-number-area-01{
+    display: flex;
+  }
+
+  .total-numbers{
+    display: flex;
+    width: 45%;
+    height: 65px;
+    background-color: rgb(12, 12, 12);
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 12px;
+    border-radius: 8px;
+
+}
+
+  .total-img{
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 35px;
+    background-color: aquamarine;
+    border-radius: 8px;
+    height: fit-content;
+    margin-right: 15px;
+  }
+
+
+
+  .visa-card-area{
+    width: 38%;
+    margin-left: 25px;
+    margin-right: 15px;
+    margin-top: 10px;
+    padding: -8px;
+    
+    border-radius: 8px;
+}
+
+.in-visa-card{
+    display: flex;
+}
+
+.in-visa-2{
+    width: 80%;
+}
+.in-visa-3{
+    width: 65%;
+}
+
+/* rightside area */
+
+ .right-side-main{
+    width: 24vw;
+     background-color: rgb(0, 0, 0);
+ }

@@ -1,0 +1,37 @@
+.main-content-area{
+    width: 100%;
+    display: flex;
+    height: max-content;
+}
+
+.content-side-main-left{
+    width: 40%;
+    margin-left: 8px;
+    margin-right: 20px;
+    border-right: 2px solid rgba(219, 219, 219, 0.133);
+}
+
+.left-text-up-div{
+    display: flex;
+}
+
+.p-activity{
+    color: rgba(255, 255, 255, 0.255);
+    font-weight: 500;
+
+}
+.p-activity-div{
+    width: 85%;
+}
+.p-mount{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    text-align: right;
+}
+
+.content-side-main-right{
+    width: 60%;
+    background-color: rgb(255, 0, 144);
+    margin-right: 8px;
+}
+

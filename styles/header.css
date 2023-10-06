@@ -1,13 +1,3 @@
-.header-main{
-    display: flex;
-    font-family: "IranSans";
-    box-shadow: 5px 5px 8px 4px #c0c0c00e;
-    padding-left: 25px;
-    padding-top: 20px;
-    height: 45px;
-    background-color: rgb(255, 255, 255);
-}
-
 .menu-dash{
     
     float: left;
@@ -18,12 +8,12 @@
 .menu-opn{
     font-family: "IranSans";
 
-    width: 220px;
+    width: 14vw;
     height: 100vh;
-    background-color: #ffffff;
+    background-color: #000000;
     justify-content: left;
     align-items: left;
-    padding-top: 25px;
+    padding-top: 14px;
     overflow-y:auto;
     z-index: 2;
     box-shadow: 5px 25px 15px 12px #5e5e5e28;
@@ -31,12 +21,13 @@
 
 .btn-menu-dash{
     width: 100%;
+    
     text-align: left;
-    color: #000000;
+    color: #c0c0c0;
     text-decoration: none;
     padding: 8px 5px 8px 15px;
-    background: #ffffff;
-   margin-bottom: 8px;
+    background: #000000;
+   margin-bottom: 5px;
    margin-right: 0;
    /* border-radius: 15px; */
    border: #eda60100;
@@ -46,18 +37,40 @@
 
 
 .btn-menu-dash:hover{
-    background-color: #111111;
-    color: #ffffff;
+    
+    color: rgb(255, 255, 255);
+
+}
+.btn-menu-dash-w{
+    width: 100%;
+    
+    text-align: left;
+    color: #c0c0c0;
+    text-decoration: none;
+    padding: 8px 5px 8px 15px;
+    background: #000000;
+    margin-bottom: 5px;
+   margin-top: -7px;
+   margin-right: 0;
+   /* border-radius: 15px; */
+   border: #eda60100;
+    cursor: pointer;
+    border-bottom: 1px solid #0000000a;
+}
+
+
+.btn-menu-dash-w:hover{
+    
+    color: rgb(255, 255, 255);
 
 }
 .btn-menu-dash-t{
     width: 100%;
     text-align: left;
-    color: #000000;
+    color: #c0c0c0;
     text-decoration: none;
     padding: 12px 5px 8px 15px;
-    background: #ffffff;
-   margin-bottom: 8px;
+    background: #000000;
    margin-right: 0;
    /* border-radius: 15px; */
    border: #eda60100;
@@ -67,7 +80,7 @@
 
 
 .btn-menu-dash-t:hover{
-    background-color: #111111;
+    
     color: #ffffff;
 
 }
@@ -75,11 +88,11 @@
 .btn-menu-dash-a{
     
     text-align: left;
-    color: #000000;
+    color: #c0c0c0;
     text-decoration: none;
     font-size: 13px;
     padding: 12px 125px 25px 25px;
-    background: #ffffff;
+    background: #000000;
     
    border: #eda60100;
     cursor: pointer;
@@ -89,7 +102,7 @@
 
 .btn-menu-dash-a:hover{
     
-    background-color: #111111;
+    
     color: #ffffff;
 
 }
