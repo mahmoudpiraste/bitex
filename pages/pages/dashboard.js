@@ -78,8 +78,8 @@ function Dashboard() {
                 <img style={{width:30, height:30, paddingLeft:2, paddingTop:3}}  src="/increase.png"/>
               </div>
               <div>
-                <p>Total Earning</p>
-                <h4 style={{marginTop:-5}}>$12,594.10</h4>
+                <p style={{marginTop:5, fontSize:10}}>Total Earning</p>
+                <h4 style={{marginTop:-5 , fontSize:14}}>$12,594.10</h4>
               </div>
             </div>
             <div className="total-numbers">
@@ -87,8 +87,8 @@ function Dashboard() {
                 <img style={{width:30, height:30, paddingLeft:2, paddingTop:3}}  src="/decrease.png"/>
               </div>
               <div>
-                <p>Total Spending</p>
-                <h4 style={{marginTop:-5}}>$243,594.80</h4>
+                <p style={{marginTop:5, fontSize:10}}>Total Spending</p>
+                <h4 style={{marginTop:-5, fontSize:14}}>$243,594.80</h4>
               </div>
             </div>
             </div>
@@ -101,8 +101,8 @@ function Dashboard() {
                 <img style={{width:30, height:30, paddingLeft:2, paddingTop:3}}  src="/strategy.png"/>
               </div>
               <div>
-                <p>Goal for this month</p>
-                <h4 style={{marginTop:-5}}>$16,494.80</h4>
+                <p style={{marginTop:5, fontSize:10}}>Goal for this month</p>
+                <h4 style={{marginTop:-5, fontSize:14}}>$16,494.80</h4>
               </div>
             </div>
             <div className="total-numbers">
@@ -110,8 +110,8 @@ function Dashboard() {
                 <img style={{width:30, height:30, paddingLeft:2, paddingTop:3}}  src="/shopping-bag.png"/>
               </div>
               <div>
-                <p>Spending goal</p>
-                <h4 style={{marginTop:-5}}>$653,594.80</h4>
+                <p style={{marginTop:5, fontSize:10}}>Spending goal</p>
+                <h4 style={{marginTop:-5, fontSize:14}}>$653,594.80</h4>
               </div>
             </div>
             </div>
@@ -125,15 +125,15 @@ function Dashboard() {
 
               {/* choosen card side */}
             <div className="visa-card-area" style={{ backgroundImage: "url(/visa-card-2.png)",backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundSize: 'cover', borderRadius:8 }}>
-                <p style={{fontSize:12, color:"white", marginLeft:10}}>MAHMOOD PIRASTE</p>
+                <p style={{fontSize:12, color:"white", marginLeft:10, marginTop:15}}>MAHMOOD PIRASTE</p>
               <div className="in-visa-card">
-                <div className="in-visa-2"><img src="/chipset.png" style={{width:45, marginLeft:10}}/></div>
-                <div><img src="/visa-visa.png" style={{width:65, marginRight:10,marginTop:-35, float:"right"}}/></div>
+                <div className="in-visa-2"><img src="/chipset.png" style={{width:35, marginLeft:10}}/></div>
+                <div><img src="/visa-visa.png" style={{width:55, marginRight:10,marginTop:-35, float:"right"}}/></div>
               </div>
-                <p style={{color:"white", marginLeft:10, fontSize:20}}>****  ****   ****  1425</p>
+                <p style={{color:"white", marginLeft:10, fontSize:15}}>****  ****   ****  1425</p>
                 <div className="in-visa-card" >
-                <div className="in-visa-3"><p style={{color:"white", marginLeft:10, fontSize:12}}>EXP: 07/05</p></div>
-                <p style={{color:"white", marginLeft:10, fontSize:10}}>CW NUMBER: 205</p>
+                <div className="in-visa-3"><p style={{color:"white", marginLeft:10, fontSize:12,marginTop:-10}}>EXP: 07/05</p></div>
+                <p style={{color:"white", marginLeft:10, fontSize:10, marginTop:-10}}>CW NUMBER: 205</p>
                 </div>
                 
             </div>

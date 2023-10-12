@@ -1,5 +1,5 @@
 .main-tabs-comp{
-    margin-top: 50px;
+    margin-top: 25px;
     margin-left: 10px;
     
 }
@@ -12,25 +12,81 @@
     border-radius: 8px;
     color: rgb(255, 255, 255);
     background-color: rgba(0, 0, 255, 0);
-    padding: 12px 25px 12px 25px;
+    padding: 10px 20px 10px 20px;
     margin-right: 15px;
     cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    transition-duration: 0.3s;
 }
   .deselectedlist-01{
     border: 2px solid rgba(64, 0, 255, 0.01);
     border-radius: 8px;
     color: rgba(255, 255, 255, 0.374);
     background-color: rgb(12, 12, 12);
-    padding: 12px 25px 12px 25px;
+    padding: 10px 20px 10px 20px;
     margin-right: 15px;
     cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    transition-duration: 0.3s;
 }
 
 
 
   .tab-panels{
     border-top: 2px solid #3534343b;
-    margin-top: 25px;
+    margin-top: 15px;
     margin-right: 15px;
     padding-top: 25px;
   }
+
+
+  .main-tabs-comp2{
+    margin-top: 5px;
+    margin-left: 5px;
+    
+    
+}
+
+.list-main{
+  background-color: rgb(12, 12, 12);
+width: fit-content;
+padding: 5px;
+padding-left: 55px;
+padding-right: 45px;
+border-radius: 8px;
+}
+
+  .selectedlist-02{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid #6c52a2;
+    
+    color: #6c52a2;
+    background-color: rgb(12, 12, 12);
+    padding: 0px 20px 10px 20px;
+    margin-right: 15px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    transition-duration: 0.3s;
+}
+
+
+
+.deselectedlist-02{
+  border: 2px solid rgb(12, 12, 12);
+  border-top: none;
+    border-right: none;
+    border-left: none;
+  color: rgba(255, 255, 255, 0.374);
+  background-color: rgb(12, 12, 12);
+  padding: 0px 20px 10px 20px;
+  margin-right: 15px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  transition-duration: 0.3s;
+}

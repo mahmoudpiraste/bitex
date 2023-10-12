@@ -48,8 +48,8 @@ const Tabs = () =>{
       <Tab.Panels className="tab-panels">
 
         <Tab.Panel><ContentTab/></Tab.Panel>
-        <Tab.Panel>content2</Tab.Panel>
-        <Tab.Panel>content3</Tab.Panel>
+        <Tab.Panel>multiple content abale to show</Tab.Panel>
+        <Tab.Panel>another content will appear here</Tab.Panel>
 
       </Tab.Panels>
     </Tab.Group>

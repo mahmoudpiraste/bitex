@@ -5,9 +5,10 @@
 }
 
 .content-side-main-left{
-    width: 40%;
+    width: 30%;
     margin-left: 8px;
     margin-right: 20px;
+    padding-right: 10px;
     border-right: 2px solid rgba(219, 219, 219, 0.133);
 }
 
@@ -18,20 +19,70 @@
 .p-activity{
     color: rgba(255, 255, 255, 0.255);
     font-weight: 500;
+    font-size: 12px;
 
 }
 .p-activity-div{
-    width: 85%;
+    width: 80%;
 }
 .p-mount{
     color: rgb(255, 255, 255);
     font-weight: 500;
     text-align: right;
+    font-size: 14px;
 }
+
+
+
+
+
+.actions-bottom-first{
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+}
+.actions-bottom{
+    margin-top: 5px;
+    display: flex;
+    width: 100%;
+}
+
+
+.img-div{
+    background-color: rgb(12, 12, 12) ;
+    width: fit-content;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+}
+
+.p-acivity-middle{
+    width: 67%;
+    color: rgb(255, 255, 255);
+}
+
+.p-activity-two{
+    margin-left: 15px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.button-activity{
+    width: 35px;
+    height: 35px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(12, 12, 12);
+    border: 0ch;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
 
 .content-side-main-right{
-    width: 60%;
-    background-color: rgb(255, 0, 144);
+    display: flex;
+    width: 70%;
     margin-right: 8px;
 }
-

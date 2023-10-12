@@ -21,7 +21,7 @@ function Header () {
         
         </div>
                 <div>
-                <Link href='/'>  <button className="btn-menu-dash"> <CiBank style={{fontSize:18}} /> Dashboard </button></Link>
+                <Link href='/'>  <button className="btn-menu-dash"> <CiBank style={{fontSize:14}} /> Dashboard </button></Link>
                 <Link href="/pages/Wallet/"> <button className="btn-menu-dash-w"> <CiCoinInsert style={{fontSize:18}}/> Wallet</button> </Link>
                 <a  className="btn-menu-dash-a" href='/pages/tradeview/'>       <CiBank style={{marginLeft:15, fontSize:18 }}/> Trading chart </a> 
                 <Link href="/pages/todo/"><button className="btn-menu-dash-t"> <CiUser style={{fontSize:18}}/> To do</button> </Link> 

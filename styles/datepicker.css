@@ -1,0 +1,20 @@
+.main-picker{
+    margin-top: 7px;
+    margin-left: 15px;
+    font-size: 10px !important;
+}
+.rs-stack-item{
+
+background-color:rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+}
+.rs-picker-toggle-textbox {
+    
+    background-color: #0d121b !important; 
+}
+
+.rs-picker-toggle-read-only{
+    background-color: #0d121b !important; 
+    opacity: 100 !important;
+    
+}
