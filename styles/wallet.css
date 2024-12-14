@@ -1,0 +1,35 @@
+
+
+.btn-wallet{
+    border-radius: 50px;
+    margin-left: 10px !important;
+    cursor: pointer;
+    font-family: IranSans;
+    font-size: 12px;
+    background-color: white;
+    border: 1px solid rgba(17, 17, 17, 0.192);
+}
+
+
+.p-count{
+    margin-left: 255px !important;
+
+}
+
+
+.submit-wallet{
+    border-radius: 50px;
+    margin-left: 10px !important;
+    cursor: pointer;
+    font-family: IranSans;
+    font-size: 12px;
+    background-color: #6c52a2;
+    color: white;
+    border: 1px solid rgb(17, 17, 17);
+}
+.submit-wallet:hover{
+    
+    background-color: #000000;
+    color: #1be700;
+    border: 1px solid #1be700;
+}

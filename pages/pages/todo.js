@@ -5,7 +5,9 @@ function Todo (){
 
     return(
         <>
-        <p>Todo</p>
+          <div>
+            <p style={{marginTop:0}}>Todo</p>
+        </div>
         </>
     )
 }

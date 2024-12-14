@@ -5,7 +5,9 @@ function Support (){
 
     return(
         <>
-        <p>Support</p>
+          <div>
+            <p style={{marginTop:0}}>Support</p>
+        </div>
         </>
     )
 }

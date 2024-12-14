@@ -1,5 +1,6 @@
 import React , { Fragment } from "react";
 import { Tab } from '@headlessui/react';
+import ContentTabsInner from "./contentabinner";
 
 
 
@@ -38,7 +39,7 @@ const TabsIn = () =>{
       <Tab.Panels className="tab-panels">
 
         
-        <Tab.Panel>content2</Tab.Panel>
+        <Tab.Panel><ContentTabsInner/></Tab.Panel>
         <Tab.Panel>content3</Tab.Panel>
 
       </Tab.Panels>

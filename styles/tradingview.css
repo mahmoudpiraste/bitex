@@ -5,8 +5,8 @@
     height: 100vh;
   }
   .tradingview-widget-container{
-    width: 85%;
-    margin-left: 220px;
+    width: 70%;
+    margin-left: 280px;
   }
   
   #tradingview_b86f7 {
@@ -17,3 +17,10 @@
     .widgetbar-pages{
         width: 60%;
     }
+
+    @media (max-width: 460px) {
+      .tradingview-widget-container{
+        width: fit-content;
+        margin-left: 60px;
+      }
+      }

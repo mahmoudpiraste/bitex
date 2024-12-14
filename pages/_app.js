@@ -5,6 +5,8 @@ import '../styles/dashboard.css';
 import '../styles/tabs.css';
 import '../styles/contentabs.css';
 import '../styles/datepicker.css';
+import '../styles/contentabsinner.css';
+import '../styles/wallet.css';
 // import 'rsuite/dist/rsuite.css';
 import Header from '/components/header'
 

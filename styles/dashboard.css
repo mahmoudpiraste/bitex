@@ -80,7 +80,7 @@
     background-color: black;
     border-radius: 8px;
     height: 115px;
-    width: 65px;
+    width: 100px;
     margin-top: -1px;
     color: rgb(255, 255, 255);
 
@@ -174,4 +174,49 @@
  .right-side-main{
     width: 24vw;
      background-color: rgb(0, 0, 0);
+ }
+
+ @media (max-width:700px) {
+  .main-dashboard{
+    display: block;
+    margin-left: 50px;
+  }
+  .up-middle-01{
+    
+    display: flex;
+    max-width: 220px;
+}
+  .droped-menu{
+    background-color: black;
+    border-radius: 8px;
+    height: fit-content;
+    width: fit-content;
+    margin-top: -1px;
+    color: rgb(255, 255, 255);
+
+  }
+  .card-img-div{
+    display: none;
+  }
+  .w-p{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 12px;
+    padding-right: 15px;
+}
+ 
+  .total-numbers-area{
+    width: 220px;
+  }
+  .total-numbers{
+    width: 50%;
+    margin-left: 0px;
+  }
+  .visa-card-area{
+    width: 220px;
+  
+  }
+  .show-total-counts-main{
+    display: block;
+  }
  }

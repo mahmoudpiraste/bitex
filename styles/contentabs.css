@@ -86,3 +86,16 @@
     width: 70%;
     margin-right: 8px;
 }
+
+@media (max-with:700px) {
+    .main-content-area{
+        
+        display: block;
+        height: max-content;
+    }
+    .content-side-main-right{
+        display: block;
+        width: fit-content;
+        margin-right: 8px;
+    }
+}

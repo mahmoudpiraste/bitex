@@ -7,8 +7,8 @@
 
 .menu-opn{
     font-family: "IranSans";
-
-    width: 14vw;
+    font-weight: 600;
+    width: 200px;
     height: 100vh;
     background-color: #000000;
     justify-content: left;
@@ -18,7 +18,12 @@
     z-index: 2;
     
 }
-
+.desktop-menu{
+    display: block;
+}
+.mobile-menu{
+    display: none;
+}
 .btn-menu-dash{
     width: 100%;
     font-size: 12px;
@@ -123,4 +128,21 @@
     margin-top: 1px;
     font-size: 12px;
     color: #ffffff;
+}
+
+@media (max-width:700px) {
+    .menu-opn{
+        
+        width: 45px;
+        height: 100vh;
+        
+        
+    }
+
+    .desktop-menu{
+        display: none;
+    }
+    .mobile-menu{
+        display: block;
+    }
 }
